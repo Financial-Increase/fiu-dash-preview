@@ -1,0 +1,413 @@
+{
+  "contacts": [
+    {
+      "id": "11111111-1111-1111-1111-111111111101",
+      "email": "ada.lovelace@example.com",
+      "name": "Ada Lovelace",
+      "phone": "+1-555-0101",
+      "source_1": "Book",
+      "source_2": "",
+      "source_3": "",
+      "source_4": "",
+      "source_5": "",
+      "created_at": "2026-04-12T14:22:00Z",
+      "updated_at": "2026-04-22T09:10:00Z"
+    },
+    {
+      "id": "11111111-1111-1111-1111-111111111102",
+      "email": "grace.hopper@example.com",
+      "name": "Grace Hopper",
+      "phone": "+1-555-0102",
+      "source_1": "Velocity",
+      "source_2": "Book",
+      "source_3": "",
+      "source_4": "",
+      "source_5": "",
+      "created_at": "2026-03-30T10:01:00Z",
+      "updated_at": "2026-04-25T16:44:00Z"
+    },
+    {
+      "id": "11111111-1111-1111-1111-111111111103",
+      "email": "alan.turing@example.com",
+      "name": "Alan Turing",
+      "phone": "+1-555-0103",
+      "source_1": "Live",
+      "source_2": "",
+      "source_3": "",
+      "source_4": "",
+      "source_5": "",
+      "created_at": "2026-04-02T12:00:00Z",
+      "updated_at": "2026-04-15T08:30:00Z"
+    }
+  ],
+  "team_members": [
+    {
+      "id": "57b7113f-fae0-4bb4-9518-d159d08ab02f",
+      "auth_user_id": "00000000-0000-0000-0000-000000000000",
+      "email": "preview@local",
+      "name": "Preview User",
+      "role": "Admin",
+      "created_at": "2026-04-24T00:00:00Z"
+    },
+    {
+      "id": "f5d8e340-b0f4-489f-bd09-2f8eff8b19bc",
+      "auth_user_id": null,
+      "email": "cary@example.com",
+      "name": "Cary",
+      "role": "Admin",
+      "created_at": "2026-04-24T00:00:00Z"
+    },
+    {
+      "id": "e71edc7a-b707-44e5-ac78-de0a50ae7052",
+      "auth_user_id": null,
+      "email": "audrey@example.com",
+      "name": "Audrey",
+      "role": "User",
+      "created_at": "2026-04-24T00:00:00Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "22222222-2222-2222-2222-222222222201",
+      "contact_id": "11111111-1111-1111-1111-111111111101",
+      "date": "2026-04-20T14:00:00Z",
+      "amount": 39.99,
+      "category": "Book",
+      "description": "180 Inner-Game Shifts (Hardcover)",
+      "status": "Approved",
+      "nmi_transaction_id": null,
+      "created_at": "2026-04-20T14:00:00Z"
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222202",
+      "contact_id": "11111111-1111-1111-1111-111111111102",
+      "date": "2026-04-22T09:00:00Z",
+      "amount": 1497.00,
+      "category": "Velocity",
+      "description": "Velocity cohort deposit",
+      "status": "Approved",
+      "nmi_transaction_id": null,
+      "created_at": "2026-04-22T09:00:00Z"
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222203",
+      "contact_id": "11111111-1111-1111-1111-111111111103",
+      "date": "2026-04-25T16:00:00Z",
+      "amount": 4.99,
+      "category": "Book",
+      "description": "180 Inner-Game Shifts (Digital)",
+      "status": "Approved",
+      "nmi_transaction_id": null,
+      "created_at": "2026-04-25T16:00:00Z"
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222204",
+      "contact_id": "11111111-1111-1111-1111-111111111101",
+      "date": "2026-04-28T11:00:00Z",
+      "amount": 297.00,
+      "category": "Course",
+      "description": "Foundations course",
+      "status": "Approved",
+      "nmi_transaction_id": null,
+      "created_at": "2026-04-28T11:00:00Z"
+    }
+  ],
+  "highlevel_subscriptions": [
+    {
+      "id": "33333333-3333-3333-3333-333333333301",
+      "contact_id": "11111111-1111-1111-1111-111111111102",
+      "contact_email": "grace.hopper@example.com",
+      "contact_name": "Grace Hopper",
+      "contact_phone": "+1-555-0102",
+      "amount": 297,
+      "currency": "USD",
+      "status": "active",
+      "is_late": false,
+      "subscription_id": "sub_preview_001",
+      "subscription_start_date": "2026-02-01T00:00:00Z",
+      "subscription_end_date": null,
+      "trial_period": null,
+      "trial_start_date": null,
+      "trial_end_date": null,
+      "recurring_interval": "month",
+      "recurring_interval_count": 1,
+      "recurring_product_id": "prod_velocity",
+      "recurring_product_name": "Velocity Membership",
+      "recurring_price_id": "price_velocity_monthly",
+      "line_item_index": 0,
+      "line_item_name": "Velocity Membership",
+      "line_item_product_id": "prod_velocity",
+      "line_item_quantity": 1,
+      "line_item_tax_index": 0,
+      "alt_id": null,
+      "alt_type": null,
+      "entity_id": null,
+      "entity_source_domain": null,
+      "entity_source_id": null,
+      "entity_source_name": null,
+      "entity_source_page_id": null,
+      "entity_source_page_url": null,
+      "entity_source_step_id": null,
+      "entity_source_sub_type": null,
+      "entity_source_type": null,
+      "entity_type": null,
+      "ghl_created_at": "2026-02-01T00:00:00Z",
+      "ghl_updated_at": "2026-04-28T00:00:00Z",
+      "ip_address": null,
+      "last_failed_payment_at": null,
+      "late_since": null,
+      "live_mode": true,
+      "payment_provider_account": null,
+      "payment_provider_type": "stripe",
+      "raw_payload": null,
+      "resolved_at": null,
+      "created_at": "2026-02-01T00:00:00Z",
+      "updated_at": "2026-04-28T00:00:00Z"
+    },
+    {
+      "id": "33333333-3333-3333-3333-333333333302",
+      "contact_id": "11111111-1111-1111-1111-111111111101",
+      "contact_email": "ada.lovelace@example.com",
+      "contact_name": "Ada Lovelace",
+      "contact_phone": "+1-555-0101",
+      "amount": 97,
+      "currency": "USD",
+      "status": "active",
+      "is_late": true,
+      "subscription_id": "sub_preview_002",
+      "subscription_start_date": "2026-01-15T00:00:00Z",
+      "subscription_end_date": null,
+      "trial_period": null,
+      "trial_start_date": null,
+      "trial_end_date": null,
+      "recurring_interval": "month",
+      "recurring_interval_count": 1,
+      "recurring_product_id": "prod_membership",
+      "recurring_product_name": "FI Membership",
+      "recurring_price_id": "price_membership_monthly",
+      "line_item_index": 0,
+      "line_item_name": "FI Membership",
+      "line_item_product_id": "prod_membership",
+      "line_item_quantity": 1,
+      "line_item_tax_index": 0,
+      "alt_id": null,
+      "alt_type": null,
+      "entity_id": null,
+      "entity_source_domain": null,
+      "entity_source_id": null,
+      "entity_source_name": null,
+      "entity_source_page_id": null,
+      "entity_source_page_url": null,
+      "entity_source_step_id": null,
+      "entity_source_sub_type": null,
+      "entity_source_type": null,
+      "entity_type": null,
+      "ghl_created_at": "2026-01-15T00:00:00Z",
+      "ghl_updated_at": "2026-04-30T00:00:00Z",
+      "ip_address": null,
+      "last_failed_payment_at": "2026-04-28T00:00:00Z",
+      "late_since": "2026-04-28T00:00:00Z",
+      "live_mode": true,
+      "payment_provider_account": null,
+      "payment_provider_type": "stripe",
+      "raw_payload": null,
+      "resolved_at": null,
+      "created_at": "2026-01-15T00:00:00Z",
+      "updated_at": "2026-04-30T00:00:00Z"
+    }
+  ],
+  "calls": [
+    {
+      "id": "44444444-4444-4444-4444-444444444401",
+      "contact_id": "11111111-1111-1111-1111-111111111101",
+      "host_team_member_id": "e71edc7a-b707-44e5-ac78-de0a50ae7052",
+      "call_date": "2026-04-26T15:00:00Z",
+      "scheduled_for": "2026-04-26T15:00:00Z",
+      "call_type": "Discovery",
+      "status": "Completed",
+      "duration_minutes": 32,
+      "source": "GHL",
+      "notes": "Discussed Velocity timing.",
+      "created_at": "2026-04-26T15:00:00Z"
+    },
+    {
+      "id": "44444444-4444-4444-4444-444444444402",
+      "contact_id": "11111111-1111-1111-1111-111111111102",
+      "host_team_member_id": "e71edc7a-b707-44e5-ac78-de0a50ae7052",
+      "call_date": "2026-04-30T17:30:00Z",
+      "scheduled_for": "2026-04-30T17:30:00Z",
+      "call_type": "Follow-up",
+      "status": "Scheduled",
+      "duration_minutes": null,
+      "source": "GHL",
+      "notes": "",
+      "created_at": "2026-04-29T10:00:00Z"
+    }
+  ],
+  "book_orders": [
+    {
+      "id": "55555555-5555-5555-5555-555555555501",
+      "contact_id": "11111111-1111-1111-1111-111111111101",
+      "source_transaction_id": "22222222-2222-2222-2222-222222222201",
+      "date_ordered": "2026-04-20T14:00:00Z",
+      "date_shipped": null,
+      "fulfillment_status": "To Be Shipped",
+      "address": "100 Babbage Way",
+      "city": "Cambridge",
+      "state": "MA",
+      "zip": "02139",
+      "carrier": "USPS",
+      "tracking_number": "",
+      "tracking_status": "PRE_TRANSIT",
+      "delivered": false,
+      "label_url": null,
+      "shippo_transaction_id": null,
+      "created_at": "2026-04-20T14:01:00Z"
+    },
+    {
+      "id": "55555555-5555-5555-5555-555555555502",
+      "contact_id": "11111111-1111-1111-1111-111111111102",
+      "source_transaction_id": null,
+      "date_ordered": "2026-04-15T09:00:00Z",
+      "date_shipped": "2026-04-16T10:00:00Z",
+      "fulfillment_status": "Shipped",
+      "address": "200 Compiler Ave",
+      "city": "Arlington",
+      "state": "VA",
+      "zip": "22201",
+      "carrier": "USPS",
+      "tracking_number": "9400111899223197428364",
+      "tracking_status": "TRANSIT",
+      "delivered": false,
+      "label_url": "https://example.invalid/label.pdf",
+      "shippo_transaction_id": "trx_preview_001",
+      "created_at": "2026-04-15T09:01:00Z"
+    }
+  ],
+  "contact_notes": [
+    {
+      "id": "66666666-6666-6666-6666-666666666601",
+      "contact_id": "11111111-1111-1111-1111-111111111101",
+      "note_text": "Asked for follow-up on Velocity in May.",
+      "created_by_name": "Audrey",
+      "created_at": "2026-04-26T15:30:00Z"
+    }
+  ],
+  "compensation_ledger": [
+    {
+      "id": "77777777-7777-7777-7777-777777777701",
+      "team_member_id": "e71edc7a-b707-44e5-ac78-de0a50ae7052",
+      "entry_date": "2026-04-01",
+      "entry_type": "Bonus",
+      "amount": 250,
+      "description": "Q1 close bonus",
+      "created_at": "2026-04-01T00:00:00Z"
+    }
+  ],
+  "membership_records": [
+    {
+      "id": "88888888-8888-8888-8888-888888888801",
+      "contact_id": "11111111-1111-1111-1111-111111111101",
+      "membership_status": "Active",
+      "member_since": "2026-01-15",
+      "cancellation_date": null,
+      "months_active": 3,
+      "utm_source": "book",
+      "created_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "id": "88888888-8888-8888-8888-888888888802",
+      "contact_id": "11111111-1111-1111-1111-111111111103",
+      "membership_status": "Cancelled",
+      "member_since": "2025-09-01",
+      "cancellation_date": "2026-03-01",
+      "months_active": 6,
+      "utm_source": "live",
+      "created_at": "2025-09-01T00:00:00Z"
+    }
+  ],
+  "saved_filter_views": [],
+  "summit_registrations": [
+    {
+      "id": "99999999-9999-9999-9999-999999999901",
+      "contact_id": "11111111-1111-1111-1111-111111111102",
+      "summit": "Spring 2026",
+      "ticket_type": "VIP",
+      "attended": true,
+      "utm_source": "email",
+      "created_at": "2026-03-01T00:00:00Z"
+    }
+  ],
+  "velocity_installments": [
+    {
+      "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaa01",
+      "velocity_member_id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbb01",
+      "installment_number": 1,
+      "amount": 1497,
+      "due_date": "2026-04-22",
+      "paid_date": "2026-04-22",
+      "status": "Paid",
+      "created_at": "2026-04-22T00:00:00Z"
+    },
+    {
+      "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaa02",
+      "velocity_member_id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbb01",
+      "installment_number": 2,
+      "amount": 1497,
+      "due_date": "2026-05-22",
+      "paid_date": null,
+      "status": "Upcoming",
+      "created_at": "2026-04-22T00:00:00Z"
+    }
+  ],
+  "velocity_members": [
+    {
+      "id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbb01",
+      "contact_id": "11111111-1111-1111-1111-111111111102",
+      "cohort": "Spring 2026",
+      "start_date": "2026-04-22",
+      "end_date": "2026-07-22",
+      "deposit": 1497,
+      "deposit_date": "2026-04-22",
+      "deposit_status": "Paid",
+      "total_sale": 5988,
+      "velocity_status": "Active",
+      "created_at": "2026-04-22T00:00:00Z"
+    }
+  ],
+  "velocity_sales": [
+    {
+      "id": "cccccccc-cccc-cccc-cccc-cccccccccc01",
+      "contact_id": "11111111-1111-1111-1111-111111111102",
+      "cohort": "Spring 2026",
+      "call_date": "2026-04-20",
+      "lead_source": "Book",
+      "sale_amount": 5988,
+      "enrolled": true,
+      "attended": true,
+      "created_at": "2026-04-20T00:00:00Z"
+    },
+    {
+      "id": "cccccccc-cccc-cccc-cccc-cccccccccc02",
+      "contact_id": "11111111-1111-1111-1111-111111111103",
+      "cohort": "Spring 2026",
+      "call_date": "2026-04-18",
+      "lead_source": "Live",
+      "sale_amount": 0,
+      "enrolled": false,
+      "attended": true,
+      "created_at": "2026-04-18T00:00:00Z"
+    }
+  ],
+  "workshop_registrations": [
+    {
+      "id": "dddddddd-dddd-dddd-dddd-dddddddddd01",
+      "contact_id": "11111111-1111-1111-1111-111111111101",
+      "workshop_date": "2026-04-10",
+      "date_registered": "2026-04-05",
+      "membership_status": "Active",
+      "attended": true,
+      "created_at": "2026-04-05T00:00:00Z"
+    }
+  ]
+}
